@@ -1,5 +1,4 @@
 #!/bin/bash
-
 percent=`df -kh . | awk -F " " '{print $(NF-1)}' | tail -1 | sed "s/%/ /g"`
 if (( $percent > 40 ));
 	then
