@@ -1,0 +1,24 @@
+#!/bin/bash
+fact ()
+{
+	while [ $NUM -gt 1 ];
+	do
+		FAC=`expr $FAC \* $NUM`
+		NUM=`expr $NUM - 1`
+	done
+	echo "Factorial $VAR is $FAC"
+}
+#addition ()
+#{
+#	SUM=`expr $SUM + $VAR`
+#	echo "Sum of n numbers is $SUM"
+#}
+	for i in $*
+	do
+		FAC=1
+		NUM=$i
+		VAR=$i
+		fact
+		#addition
+	done
+

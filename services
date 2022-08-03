@@ -1,0 +1,17 @@
+#!/bin/bash
+SERVICES="acpid apache jenkins sshd"
+for i in $SERVICES
+do
+	OUT=`ps -ef | grep $i | grep -v "grep"`
+	RESULT=`echo $OUT | grep $i`
+
+if [ "$RESULT" != "" ];
+then
+	echo "$i Service is running"
+else
+	echo "$i Service is Not running"
+	echo "Trying to Restart $i Service"
+# echo "Action Needed" | mail -s "$i is not running" -c somashekhar15@gmail.com
+#sudo service $i restart
+fi
+done

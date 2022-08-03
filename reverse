@@ -1,0 +1,12 @@
+#!/bin/bash
+echo " Enter file name to reverse"
+read file
+LINE=`expr cat $file | wc -l`
+while [ $LINE > 0 ] 	
+	do
+	head -$LINE $file | tail -1 >> REVERSE
+	LINE=`expr $LINE – 1`
+	done
+	echo "$REVERSE"
+
+exit

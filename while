@@ -1,0 +1,8 @@
+#!/bin/bash
+echo " Enter number to print in descending order"
+read N
+while [ $N -gt 0 ];
+do 
+	echo "$N"
+	N=`expr $N - 1`
+done

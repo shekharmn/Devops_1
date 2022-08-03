@@ -1,0 +1,7 @@
+#!/bin/bash
+while
+Per=`echo " $(df -kh) " | awk '{print $5}' | tail -n+2`
+if [ $Per -gt 20 ]
+then 
+	$mail -s "Storage info" somashekhar15@gmail.com
+fi

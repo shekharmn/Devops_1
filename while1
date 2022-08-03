@@ -1,0 +1,11 @@
+#!/bin/bash
+echo " Enter number to calculate sum in reverse order"
+read NUM
+SUM=0
+while [ $NUM -gt 0 ];
+do
+	SUM=`expr $SUM + $NUM`
+        NUM=`expr $NUM - 1`
+done
+	echo "The sum is $SUM"
+

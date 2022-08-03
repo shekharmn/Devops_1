@@ -1,0 +1,1000 @@
+   57  sed 's/\//\\/g' 1
+   58  free
+   59  free -h
+   60  df -kh
+   61  du -sh
+   62  du -sh *
+   63  lsblk
+   64  cd linux1/training1/
+   65  ls -lrt
+   66  cat name1.doc
+   67  grep -o qurrel name1.doc
+   68  grep -o quarrel name1.doc
+   69  cat -n name1.doc
+   70  ps -ef
+   71  cd 
+   72  mkdir test
+   73  touch test1
+   74  vi test1
+   75  cat test1
+   76  cat test1 | grep 6
+   77  cat test1 | grep -o 6
+   78  cat test1 | cut -d " " f5
+   79  cut -d " " f5 test1
+   80  cut -d " " -f5 test1
+   81  cut -d " " -f5 test1 | grep 6
+   82  cut -d " " -f5 test1 | tail -1
+   83  find . -type f test1
+   84  find . test1
+   85  find . -type f test1
+   86  cat /etc/os-version
+   87  cat /etc/os-release 
+   88  exit
+   89  ping google.com
+   90  netstat
+   91  netstat -a
+   92  netstat -at
+   93  netstat -u
+   94  netstat -ut
+   95  nslookup
+   96  nslookup youtube.com
+   97  traceroute
+   98  traceroute facebook.com
+   99  ifconfig
+  100  df -su
+  101  df -sh
+  102  du -kh
+  103  du -sh linux1
+  104  df -kh
+  105  free
+  106  free -h
+  107  netstat -tnlpu
+  108  cat /etc/os-release 
+  109  ls -lrt
+  110  du -sh test1
+  111  cd
+  112  mn test1 test
+  113  mv test1 test
+  114  cd test
+  115  ls -lrt
+  116  exit
+  117  ls -lrt
+  118  cd scripts
+  119  ls -lrt
+  120  cat fileorfolder
+  121  vi fileorfolder
+  122  cd scripts
+  123  cat scripts
+  124  ls lrt
+  125  ls -lrt
+  126  vi fileorfolder
+  127  sh fileorfolder
+  128  mailx
+  129  man mailx
+  130  yum repolist
+  131  man sendmail
+  132  rpm -qa | grep sendmail
+  133  rpm -qa | grep postfix
+  134  mailx
+  135  systemctl stop postfix
+  136  hostname
+  137  systemctl status sendmail
+  138  systemctl status postfix
+  139  yum install -y mailx
+  140  sudo yum install -y mailx
+  141  sudo yum update
+  142  mail -s "A mail sent via mailx" somu151892@gmail.com
+  143  systemctl stop postfix
+  144  sudo systemctl stop postfix
+  145  % sudo su
+  146  %sudo su
+  147  sudo su
+  148  cd scripts
+  149  users
+  150  exit
+  151  
+  152  man crontab
+  153  cd scripts
+  154  ls -lrt
+  155  date
+  156  date --set="20220720 19:39"
+  157  date
+  158  sudo date --set="20220720 19:40"
+  159  date
+  160  su root
+  161  history
+  162  %sudo su
+  163  % sudo su
+  164  su -
+  165  sudo -i
+  166  date
+  167  ls -lrt
+  168  date
+  169  sudo date --set="20220720 19:53"
+  170  date
+  171  sudo date --set="20220720 19:54"
+  172  date
+  173  crontab -e * * * * * ./scripts/ifexample
+  174  find . ifexample
+  175  crontab -e * * * * * ./scripts/ifexample
+  176  exit
+  177  clear
+  178  exit
+  179  crontab .bash_history .bash_logout .bash_profile .bashrc le linux1 linux2 linux3 scripts .ssh test .vim .viminfo  * * 
+  180  crontab * * * * * ./scripts/ifexample
+  181  crontab 01 * * * * ./scripts/ifexample
+  182  cd scripts
+  183  ls -lrt
+  184  crontab 01 * * * * ./ifexample
+  185  crontab 01 * * * * fileorfolder
+  186  cd scripts
+  187  ls -lrt
+  188  cat fileorfolder
+  189  touch file1
+  190  vi file1
+  191  cd sc
+  192  cd scripts
+  193  ls -lrt
+  194  vi file1
+  195  cat fileorfolder
+  196  #!/bin/bash
+  197  echo "Enter the name to check"
+  198  read name
+  199  then
+  200          echo "$name is a soft link"
+  201  elif [ -d $name ];
+  202  then
+  203          echo "$name is a direcotory"
+  204  elif [ -f $name ];
+  205  then
+  206          echo "$name is file"
+  207  else
+  208          echo "$name doesnt exists"
+  209  fi
+  210  cat fileorfolder
+  211  vi file1
+  212  ls -lrt
+  213  sh file1
+  214  vi file1
+  215  sh file1
+  216  vi file1
+  217  sh file1
+  218  vi file1
+  219  sh file1
+  220  vi file1
+  221  sh file1
+  222  sh -x file1
+  223  cd scripts
+  224  ls -lrt
+  225  cat leap
+  226  find leap
+  227  cd
+  228  fin leap
+  229  fin . leap
+  230  find . leap
+  231  find . -type f leap
+  232  date
+  233  clear
+  234  crontab e
+  235  sudo -i
+  236  cd
+  237  crontab -e
+  238  date
+  239  crontab -e
+  240  ls -lrt
+  241  corntab e
+  242  corntab -e
+  243  crontab -e
+  244  cd scripts
+  245  ls -lrt
+  246  clear
+  247  cd scripts
+  248  touch factorial
+  249  cd /var/logs/
+  250  cat scripts
+  251  mail
+  252  vi factorial
+  253  sh -x factorial
+  254  vi factorial
+  255  sh -x factorial
+  256  sh factorial
+  257  vi factorial
+  258  sh factorial
+  259  vi factorial
+  260  sh factorial
+  261  vi factorial
+  262  sh factorial
+  263  vi factorial
+  264  sh -x factorial
+  265  cd scripts
+  266  touch merge1 merge2
+  267  vi merge1
+  268  vi merge2
+  269  cat merge1
+  270  cat merge2
+  271  paste merge1 \n merge2
+  272  paste merge1 \\n merge2
+  273  paste merge1 merge2
+  274  vi factorial
+  275  cd scripts
+  276  vi factorial
+  277  paste --help
+  278  man paste
+  279  clear
+  280  cat merge1
+  281  cd ./scripts/merge1
+  282  cd scripts
+  283  cat merge1
+  284  cat merge2
+  285  paste -d merge1 \n merge2
+  286  paste -d "\n" merge1  merge2
+  287  touch merged
+  288  cd scripts
+  289  exit
+  290  paste -d \n merge1 merge2
+  291  paste -d '\n' merge1 merge2
+  292  paste -d "\n" merge1 merge2
+  293  cd scipts
+  294  d
+  295  cd
+  296  cd scripts
+  297  paste -d \n merge1 merge2
+  298  paste -d '\n' merge1 merge2
+  299  vi merged
+  300  cd scripts
+  301  ls -lrt
+  302  vi factorial
+  303  sh factorial
+  304  vi factorial
+  305  exit
+  306  clear
+  307  crontab -e
+  308  crontab -l
+  309  cd /tmp/output.txt
+  310  crontab -e
+  311  crontab -l
+  312  cd scripts
+  313  ls -lrt
+  314  cat bin
+  315  cd bin
+  316  ls -lrt
+  317  cd ..
+  318  find bin
+  319  find . bin
+  320  find . -type d bin
+  321  find -name bin
+  322  crontab
+  323  crontab -e
+  324  crontab -l
+  325  cd /scripts/bin/
+  326  cd ./scripts/bin/
+  327  ls -lrt
+  328  crontab -e
+  329  crontab -l
+  330  ls -lrt
+  331  touch output.txt
+  332  ls -lrt
+  333  crontab -e
+  334  crontab -l
+  335  ls -lrt
+  336  crontab -l
+  337  cd
+  338  crontab -e
+  339  crontab -l
+  340  cd /home/scripts/
+  341  cd /home/scripts
+  342  crontab -e
+  343  user
+  344  find -name output.txt
+  345  crontab -e
+  346  cd ./scripts
+  347  ls -lrt
+  348  crontab
+  349  crontab -e
+  350  vi output1.txt
+  351  crontab -e
+  352  cd bin
+  353  ls -lrt
+  354  vi output.txt
+  355  crontab -l
+  356  vi output1.txt
+  357  cd ..
+  358  vi output1.txt
+  359  cd
+  360  crontab -e
+  361  crontab -l
+  362  ls -lrt
+  363  scripts
+  364  cd scripts
+  365  ls lrt
+  366  ls -lrt
+  367  cat output1.txt
+  368  cd ..
+  369  ls -lrt
+  370  cat merged
+  371  cd scripts
+  372  cat merged
+  373  cd
+  374  cd ..
+  375  cd scripts
+  376  find -name output.txt
+  377  cd
+  378  crontab -e
+  379  crontab -l
+  380  cat output1.txt
+  381  cd /scripts
+  382  cd
+  383  cd scripts
+  384  cat output1.txt
+  385  date
+  386  cat output1.txt
+  387  date
+  388  crontab -e
+  389  crontab -l
+  390  date
+  391  cat output1.txt
+  392  date
+  393  cat output1.txt
+  394  crontab -e
+  395  cat output1.txt
+  396  date
+  397  cat output1.txt
+  398  wq
+  399  cd
+  400  exit
+  401  vi factorial
+  402  ls -lrt
+  403  cd scripts
+  404  ls -lrt
+  405  vi factorial
+  406  touch factorials
+  407  vi factorials
+  408  cat factorials
+  409  cat factorial
+  410  vi factorials
+  411  Sh factorials
+  412  ./factorials
+  413  chmod u+x factorials
+  414  ls -lrt factorials
+  415  sh factorials
+  416  vi factorials
+  417  sh factorials
+  418  vi factorials
+  419  vi factorial
+  420  Sh factorial
+  421  ./factorial
+  422  chmod u+x factorial
+  423  Sh factorial
+  424  cat factorial
+  425  ./factorial
+  426  ./factorial9
+  427  ./factorial
+  428  vi factorials
+  429  cd /etc/mail/
+  430  ls -lrt
+  431  vi authinfo
+  432  passwd
+  433  crontab -e
+  434  sudo -i
+  435  mail -s "First mail linux" somashekhara15@gmail.com
+  436  systemctl status sendmail | grep soma
+  437  exit
+  438  mail -s "1st mail" somashekhar15@gmail.com
+  439  systemctl status sendmail | grep soma
+  440  cd scritps
+  441  cd
+  442  cd scripts
+  443  ls -lrt
+  444  touch while
+  445  vi while
+  446  sh while
+  447  vi while
+  448  sh while
+  449  vi while
+  450  sh while
+  451  vi while
+  452  cd
+  453  cd scripts
+  454  ls -lrt
+  455  vi while
+  456  sh while
+  457  vi while
+  458  sh while 7
+  459  vi while
+  460  sh while 7
+  461  vi while
+  462  sh while 7
+  463  vi while
+  464  sh while
+  465  vi while
+  466  sh while
+  467  vi while
+  468  sh while
+  469  vi while
+  470  sh while
+  471  vi while
+  472  sh while
+  473  vi while
+  474  sh while
+  475  vi while
+  476  sh while
+  477  vi while
+  478  vi while1
+  479  sh while1
+  480  vi while1
+  481  ls -lrt
+  482  vi merged
+  483  cd ..
+  484  ls -lrt
+  485  vi merged
+  486  systemctl status sendmail
+  487  mail -s "Linux Mail" somashekhar15@gmail.com
+  488  systemctl status sendmail
+  489  systemctl status sendmail -l | grep somashekhar
+  490  cd scripts
+  491  ls -lrt
+  492  vi sendmail
+  493  Sh sendmail
+  494  sh sendmail
+  495  vi sendmail
+  496  sh sendmail
+  497  vi sendmail
+  498  sh sendmail
+  499  vi sendmail
+  500  sh sendmail
+  501  vi sendmail
+  502  sh sendmail
+  503  vi sendmail
+  504  sh sendmail
+  505  vi sendmail
+  506  exit
+  507  cd scipts
+  508  cd
+  509  cd scripts
+  510  ls -lrt
+  511  vi file1
+  512  sudo yum update
+  513  cd scripts
+  514  ls -lrt
+  515  vi factorials
+  516  sh factorials
+  517  echo $?
+  518  vi factorials
+  519  sh factorials 8 5 9 15
+  520  vi factorials
+  521  sh factorials 8 5 9 15
+  522  vi factorials
+  523  sh factorials 8 5 9 15
+  524  cd scripts
+  525  ls -lrt
+  526  cat 0
+  527  rm -rf 0
+  528  ls -lrt
+  529  vi factorials
+  530  sh factorials
+  531  sh factorials 5 6 9
+  532  vi factorials
+  533  sh factorials 5 6 
+  534  sh factorials 5 6 9 5 8 6
+  535  vi services
+  536  sh services
+  537  cd
+  538  exit
+  539  clear
+  540  cd scripts
+  541  sh -x services
+  542  exit
+  543  clear
+  544  cd scripts
+  545  sh -x services
+  546  vi services
+  547  exit
+  548  cd scripts
+  549  vi service
+  550  vi services
+  551  ps -ef
+  552  vi services
+  553  clear
+  554  cd scripts
+  555  vi services
+  556  sh -x services
+  557  vi services
+  558  clear
+  559  cd scripts
+  560  clear
+  561  cd scripts
+  562  ls -lrt
+  563  vi factorials
+  564  find . name
+  565  df -kh
+  566  vi factorials
+  567  sh factorials
+  568  sh factorials 6 8 9 12
+  569  exit
+  570  ps -ef
+  571  cd scripts
+  572  vi biggest
+  573  sh biggest 5 9 2 26
+  574  vi biggest
+  575  sh biggest 5 9 2 26
+  576  vi biggest
+  577  sh biggest 5 9 2 26 25
+  578  vi biggest
+  579  clear
+  580  crontab -e
+  581  date
+  582  crontab -e
+  583  cd scripts
+  584  vi datecheck
+  585  sh -x datecheck
+  586  vi datecheck
+  587  sh -x datecheck
+  588  date --help
+  589  sh datecheck
+  590  vi datecheck
+  591  sh datecheck
+  592  vi datecheck
+  593  sh datecheck
+  594  vi datecheck
+  595  sh datecheck
+  596  sh datecheck 5
+  597  sh datecheck 05
+  598  sh -x datecheck 
+  599  date +%d
+  600  date +%d -d
+  601  date
+  602  date +%Y
+  603  date +%y
+  604  date +%Y
+  605  date +%u
+  606  date +%d -d
+  607  date +%d -d
+  608  date +%d -d "1 day"
+  609  date +%d -d "2 day"
+  610  date +%d -d "8 day"
+  611  vi datecheck
+  612  Sh datecheck
+  613  sh datecheck
+  614  vi datecheck
+  615  sh datecheck
+  616  vi datecheck
+  617  sh datecheck
+  618  vi datecheck
+  619  date --set="20220723 22:53"
+  620  sudo date --set="20220723 22:53"
+  621  date
+  622  sudo yum update
+  623  clear
+  624  cd scripts
+  625  vi bubblesort
+  626  sh bubblesort
+  627  vi bubblesort
+  628  sh bubblesort
+  629  cd  scripts
+  630  ls -lrt
+  631  cat outputnew
+  632  cat outputnew.txt
+  633  crontab -e
+  634  crontab -l
+  635  vi diskspace
+  636  df -kh
+  637  df -kh | cut -d " " -f5
+  638  df -kh | awk -d " " -f5
+  639  df -kh | awk -F " " '{print $NF -1}
+  640  df -kh | awk -F " " '{print $(NF-1)}
+  641  clear
+  642  df -kh . | awk -F " " '{print $(NF-1)}
+  643  df -kh . | awk -F " " '{print $(NF-1)}' | tail -1 | sed "s/%/ /g"
+  644  cd scripts
+  645  ls -lrt
+  646  cat awkvars.out
+  647  rm -rf awkvars.out
+  648  ls -lrt
+  649  vi diskspace
+  650  sh diskspace
+  651  sendmail status
+  652  systemctl status sendmail
+  653  systemctl status sendmail -l
+  654  netstat -tuplen | grep 25
+  655  telnet gmail-smtp-in.l.google.com 25
+  656  cd
+  657  sudo -i
+  658  mail
+  659  scripts
+  660  cd scripts
+  661  ls -lrt
+  662  vi outputnew.txt
+  663  crontab -l
+  664  cd scripts
+  665  vi revstring
+  666  cd scripts
+  667  ls -lrt | tail -1
+  668  vi revstring
+  669  rm -rf revstring.swp
+  670  vi revstring
+  671  find -name revstring.swp
+  672  cd
+  673  find -name revstring.swp
+  674  find . -name "revstring.swp"
+  675  find . -name ".revstring.swp"
+  676  rm -rf .revstring.swp
+  677  vi revstring
+  678  ls -lrt
+  679  cd scripts
+  680  ls -lrt | tail 1
+  681  ls -lrt | tail -1
+  682  vi revstring
+  683  sh revstring
+  684  sh -x revstring
+  685  vi revstring
+  686  sh revstring
+  687  sh -x revstring
+  688  wc -c shekhar
+  689  wc -c "shekhar"
+  690  echo shekhar | wc -c
+  691  echo shekhar | wc -l
+  692  echo shekhar | wc -d
+  693  echo shekhar | wc -w
+  694  echo shekhar | wc -c
+  695  man wc
+  696  echo shekhar | wc -m
+  697  man wc
+  698  echo shekhar| wc -m
+  699  echo shekhar| wc -c
+  700  echo shekhar|wc -c
+  701  echo shek|wc -c
+  702  echo "shek"|wc -c
+  703  echo 'shek'|wc -c
+  704  sh -x revstring
+  705  `date +%d` -eq `echo \`cal\` | awk ‗{print $NF}‘
+  706  cd scripts
+  707  cat datecheck
+  708  date +%d -eq echo \`cal\` | awk ‗{print $NF}‘
+  709  cd scripts
+  710  ls -lrt
+  711  vi datecheck
+  712  date +%d -eq date +%d -d "1 day" 
+  713  (date +%d) -eq (date +%d -d "1 day")
+  714  date +%d
+  715  echo \`cal\`
+  716  `date +%d` -eq `date +%d -d "1 day"` 
+  717  date +%d | -eq date +%d -d "1 day"
+  718  echo "date +%d" | == echo "date +%d -d "1 day""
+  719  echo "date +%d" | -eq echo "date +%d -d "1 day""
+  720  cd 
+  721  shekhar wc -m
+  722  wc -c shekhar
+  723  echo girish | wc -c
+  724  cd scripts
+  725  clear
+  726  sh bubblesort
+  727  clear
+  728  cd scripts
+  729  cd scripts
+  730  ls -lrt
+  731  cat outputnew.txt
+  732  crontab -e
+  733  crontab -l
+  734  vi revstring
+  735  ls -lrt | tail-3
+  736  ls -lrt | tail -3
+  737  cat revstring
+  738  cd scripts
+  739  ls -lrt
+  740  cat revstring
+  741  cat biggest
+  742  vi file1
+  743  cat factorials
+  744  cd
+  745  exit
+  746  cd scripts
+  747  vi biggest
+  748  vi 2biggest
+  749  vi biggest
+  750  vi 2biggest
+  751  vi biggest
+  752  sh biggest
+  753  sh biggest 5 8 4 25 12
+  754  vi biggest
+  755  sh biggest 5 8 4 25 12
+  756  vi biggest
+  757  sh biggest 5 8 4 25 12
+  758  vi biggest
+  759  sh biggest 5 8 4 25 12
+  760  sh biggest 5 8 69 9
+  761  vi biggest
+  762  sh biggest 5 8 69 9
+  763  vi biggest
+  764  sh biggest 5 8 69 9 25
+  765  sh -x biggest 5 8 69 9
+  766  vi biggest
+  767  vi menu
+  768  vi menu
+  769  sh menu
+  770  vi menu
+  771  sh menu
+  772  vi menu
+  773  sh menu
+  774  vi menu
+  775  sh menu
+  776  vi menu
+  777  sh menu
+  778  vi menu
+  779  sh menu
+  780  ls -lrt
+  781  vi 2biggest
+  782  cat bubblesort
+  783  vi 2biggest
+  784  sh 2biggest
+  785  vi 2biggest
+  786  sh 2biggest 5 8 4 12 9
+  787  vi 2biggest
+  788  sh 2biggest
+  789  vi 2biggest
+  790  sh 2biggest
+  791  vi 2biggest
+  792  sh 2biggest
+  793  sh -x 2biggest
+  794  vi 2biggest
+  795  sh 2biggest
+  796  vi 2biggest
+  797  sh 2biggest
+  798  vi 2biggest
+  799  sh 2biggest
+  800  vi 2biggest
+  801  sh 2biggest
+  802  vi 2biggest
+  803  sh 2biggest
+  804  vi 2biggest
+  805  sh 2biggest
+  806  vi 2biggest
+  807  sh 2biggest
+  808  wq
+  809  exit
+  810  cd scripts
+  811  cat bubblesort
+  812  crontab -l
+  813  cat outputnew.txt
+  814  cd scripts
+  815  cat outputnew.txt
+  816  crontab -l
+  817  crontab -e
+  818  clear
+  819  vi joiningfiles
+  820  sh joiningfiles
+  821  vi joiningfiles
+  822  crontab -l
+  823  date
+  824  ls -lrt
+  825  vi menu
+  826  clear
+  827  ds
+  828  crontab -l
+  829  cd scripts
+  830  cat outputnew.txt
+  831  clear
+  832  cat outputnew.txt
+  833  cd scripts
+  834  cat outputnew.txt
+  835  crontab -e
+  836  clear
+  837  cd scripts
+  838  vi swap
+  839  sh swap
+  840  vi swap
+  841  sh swap
+  842  vi swap
+  843  sh swap
+  844  vi swap
+  845  sh swap
+  846  vi swap
+  847  sh swap
+  848  vi swap
+  849  sh swap
+  850  vi swap
+  851  sh swap
+  852  vi swap
+  853  sh swap
+  854  vi swap
+  855  sh swap
+  856  vi pyarmid*
+  857  sh pyarmid*
+  858  sh -x pyarmid*
+  859  sh pyarmid*
+  860  vi pyarmid*
+  861  sh pyarmid*
+  862  vi pyarmid*
+  863  sh pyarmid*
+  864  vi pyarmid*
+  865  sh pyarmid*
+  866  vi pyarmid*
+  867  sh pyarmid*
+  868  vi pyarmid*
+  869  man echo
+  870  cd scripts
+  871  vi swap
+  872  exit
+  873  cd scripts
+  874  vi pyramid*
+  875  ls -lrt
+  876  vi pyarmid*
+  877  cd scripts
+  878  vi pyarmid*
+  879  sh pyarmid*
+  880  vi pyarmid*
+  881  sh pyarmid*
+  882  vi pyarmid*
+  883  sh pyarmid*
+  884  vi pyarmid*
+  885  sh pyarmid*
+  886  vi pyarmid*
+  887  sh pyarmid*
+  888  vi pyarmid*
+  889  cd
+  890  exit
+  891  cd scripts
+  892  ls -lrt
+  893  vi pyarmid*
+  894  sh pyarmid*
+  895  vi bubblesort
+  896  vi pyarmid*
+  897  cd
+  898  find -name bubblesort
+  899  vi   bubble
+  900  cd scripts
+  901  cat menu
+  902  ls -lrt
+  903  vi reverse
+  904  sh reverse
+  905  vi reverse
+  906  sh reverse
+  907  vi reverse
+  908  sh reverse
+  909  vi reverse
+  910  head -n swap
+  911  head swap
+  912  vi reverse
+  913  echo $file | wc -l`
+  914  echo swap | wc -l
+  915  cat swap | wc -l
+  916  vi reverse
+  917  sh reverse
+  918  vi reverse
+  919  sh reverse
+  920  vi reverse
+  921  sh reverse
+  922  vi reverse
+  923  sh reverse
+  924  vi reverse
+  925  sh reverse
+  926  vi reverse
+  927  sh reverse
+  928  vi reverse
+  929  sh reverse
+  930  vi reverse
+  931  exit
+  932  cd scripts
+  933  ls -lrt
+  934  date
+  935  date %d
+  936  date -%d
+  937  date %H
+  938  date +%H
+  939  date 
+  940  date +%HMS
+  941  date +%H +%M +%S
+  942  date +%H,M,S
+  943  cat /etc/os-release 
+  944  date +%H-%M-%S
+  945  date 
+  946  date +%H-%M-%S
+  947  cd
+  948  cd linux1
+  949  cd scipts
+  950  cd ..
+  951  cd scripts
+  952  ls -lrt
+  953  cat outputnew.txt
+  954  crontab -e
+  955  clear
+  956  clear
+  957  sudo -i
+  958  date
+  959  sudo ln -sf /usr/share/zoneinfo/Asia/Calcutta /etc/localtime
+  960  exit
+  961  date
+  962  sudo yum install git
+  963  which git
+  964  cat /etc/os-release 
+  965  cd scripts
+  966  git init
+  967  ls -lart
+  968  git status
+  969  git add -
+  970  git add *
+  971  git status
+  972  git commit -m "Shell scripts"
+  973  git git status
+  974  git status
+  975  git remote -v
+  976  git push
+  977  git remote add origin https://github.com/shekharmn/Devops_1.git
+  978  git push origin
+  979  git push --set-upstream origin master
+  980  cd
+  981  history
+  982  exit
+  983  crontab -e
+  984  crontab -l
+  985  cd scripts
+  986  cat outputnew.txt
+  987  crontab -e
+  988  crontab -l
+  989  cd scripts
+  990  cat outputnew.txt
+  991  crontab -e
+  992  cd scripts
+  993  ls -lrt
+  994  cd scripts
+  995  cd
+  996  ls -lrt
+  997  mv history.txt ./scripts/
+  998  ls -lrt
+  999  scripts
+ 1000  cd scripts
+ 1001  ls -lrt
+ 1002  cat outputnew2.txt
+ 1003  cat outputnew.txt
+ 1004  git status
+ 1005  mv history.txt history28072022
+ 1006  ls -lrt
+ 1007  git add history28072022
+ 1008  git status
+ 1009  git commit -m "Command Used"
+ 1010  git remote -v
+ 1011  git push
+ 1012  git push --help
+ 1013  git push origin
+ 1014  git remote add origin https://github.com/shekharmn/Devops_1.git
+ 1015  git push --set-upstream origin master
+ 1016  git status
+ 1017  cd scripts
+ 1018  ls -lrt
+ 1019  git status
+ 1020  git add history28072022
+ 1021  git status
+ 1022* 
+ 1023  git init
+ 1024  cd
+ 1025  ls -lrt
+ 1026  mkdir History
+ 1027  cd History
+ 1028  pwd
+ 1029  mv 
+ 1030  cd
+ 1031  mv ./scripts/history28072022 ./History/
+ 1032  cd History
+ 1033  ls -lrt
+ 1034  git init
+ 1035  git status
+ 1036  git commit -m "Command used"
+ 1037  git add history28072022
+ 1038  git commit -m "Command used"
+ 1039  git remote -v
+ 1040  git push
+ 1041  git remote add origin https://github.com/shekharmn/Devops_1.git
+ 1042  git push origin
+ 1043  git push --set-upstream origin master
+ 1044  cd
+ 1045  git status
+ 1046  cd History
+ 1047  git init
+ 1048  git pull origin master --allow-unrelated-histories
+ 1049  git status
+ 1050  git init
+ 1051  git add history28072022
+ 1052  git status
+ 1053  ls -lrt
+ 1054  cd
+ 1055  cd scripts
+ 1056  history >> history2807

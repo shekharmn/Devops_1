@@ -1,0 +1,74 @@
+#!/bin/bash
+echo "Enter the number from menu"
+echo -e "1) Reverse of String\n 2.Biggest of given numbers\n 3.Checking File or folder or Link\n 4.Factorials"
+read NUM
+case $NUM in
+	1) echo "rev string"
+echo " Enter string to reverse "
+read STR
+Length=`echo $STR | wc -c`
+Rev=""
+
+for (( i=$Length-1; i>=0; i-- ))
+do
+        Rev="$Rev${STR:$i:1}"
+done
+echo "Reversed string is $Rev"
+;;
+	2) echo "Biggest"
+var=$1
+
+for i in $*
+do
+        if [ $i -gt $var ];
+        then
+                var=$i
+fi
+done
+echo " the biggest of given numbers is $var"
+;;
+	3) echo "Checking File or folder or Link"
+echo "Enter the name to check"
+read name
+if [ -h $name ];
+then
+        echo "$name is a soft link"
+elif [ -d $name ];
+then
+        echo "$name is a direcotory"
+        ls -lrt $name
+elif [ -f $name ];
+then
+        echo "$name is file"
+        cat $name
+        echo "the number of lines in $name is"
+        cat $name | wc -l
+else
+        echo "$name doesnt exists"
+fi
+;;
+	4) echo "Factorials"
+fact ()
+{
+        while [ $NUM -gt 1 ];
+        do
+                FAC=`expr $FAC \* $NUM`
+                NUM=`expr $NUM - 1`
+        done
+        echo "Factorial $VAR is $FAC"
+}
+#addition ()
+#{
+#       SUM=`expr $SUM + $VAR`
+#       echo "Sum of n numbers is $SUM"
+#}
+        for i in $*
+        do
+                FAC=1
+                NUM=$i
+                VAR=$i
+                fact
+                #addition
+        done 
+	;;
+esac

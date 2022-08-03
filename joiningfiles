@@ -1,0 +1,8 @@
+#!/bin/bash
+File=$1
+Lines=`cat $file | wc –l`
+	While [ $lines –gt 0 ]
+	Do
+Head -$lines $file | tail -1 >> reverse
+Lines=`expr $lines – 1`
+Done

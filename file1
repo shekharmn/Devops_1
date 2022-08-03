@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Enter the name to check"
+read name
+if [ -h $name ];
+then
+        echo "$name is a soft link"
+elif [ -d $name ];
+then
+        echo "$name is a direcotory"
+	ls -lrt $name
+elif [ -f $name ];
+then
+        echo "$name is file"
+	cat $name
+	echo "the number of lines in $name is"
+       	cat $name | wc -l
+else
+        echo "$name doesnt exists"
+fi
+

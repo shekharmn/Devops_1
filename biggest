@@ -1,0 +1,11 @@
+#!/bin/bash
+var=$1
+
+for i in $*
+do 
+	if [ $i -gt $var ];
+	then
+		var=$i	
+fi
+done
+echo " the biggest of given numbers is $var"

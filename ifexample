@@ -1,0 +1,6 @@
+#!/bin/bash
+VAR1="AJAY"
+VAR2="BDVT"
+	echo "My name is $VAR1"
+	echo "My native is $VAR2" 
+

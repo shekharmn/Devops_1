@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Enter the name to check"
+read name
+if [ -h $name ];
+then
+	echo "$name is a soft link"
+elif [ -d $name ];
+then
+	echo "$name is a direcotory"
+elif [ -f $name ];
+then
+	echo "$name is file"
+else
+	echo "$name doesnt exists"
+fi

@@ -1,0 +1,41 @@
+#!/bin/bash
+if [ $# -ne 5 ];
+then 
+	echo "Please pass 3 arguments only"
+	exit
+fi
+
+if [ $1 -lt $2 ] && [ $1 -lt $3 ];
+then
+        echo "$1 is smallest"
+elif [ $2 -lt $1 ] & [ $2 -lt $3 ];
+then
+        echo "$2 is smallest"
+else
+       echo "$3 is smallest"
+fi
+
+SUM=`expr $4 + $5`
+echo "sum of $4 and $5 is $SUM"
+
+PROD=`expr $4 \* $5`
+echo "Product of $4 and $5 is $PROD"
+
+if [ $4 -gt $5 ];
+then
+	echo "DIFF=`expr $4 - $5`"
+	echo "Divi=`expr $4 / $5`"
+else
+	echo "DIFF=`expr $5 - $4`"
+        echo "Divi=`expr $5 / $4`"
+fi
+
+REMAINDER=`expr $1 % 4`
+if [ $REMAINDER -eq 0 ];
+then 
+	echo "Given year is leap year"
+else 
+	echo "entered year is not leap year"
+fi
+
+

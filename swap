@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Enter two numbers"
+var=""
+read num1 num2
+
+var=$num1
+num1=$num2
+num2=$var
+echo "the swaped numbers are $num1 $num2"
+exit

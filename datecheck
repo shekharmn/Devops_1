@@ -1,0 +1,9 @@
+#!/bin/bash
+TODAY=`date +%d`
+TOMORROW=`date +%d -d "1 day"`
+	if [ $TODAY -gt $TOMORROW ];
+	then
+	echo " This is last day of month $TODAY"
+else 
+	echo "$TODAY is not last day of month"
+fi

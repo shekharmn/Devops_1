@@ -1,0 +1,36 @@
+#!/bin/bash
+echo "Enter How many numbers to sort"
+read n
+# taking input from user user
+echo "Enter NUmber in array"
+for (( i=0; i<$n; i++ ))
+do 
+	read NUM[$i]
+done
+# Printing the number before sorting
+#echo " Numbers in an array are: "
+#for (( i=0; i<$n; i++ ))
+#do 
+#	echo "${NUM[$i]}"
+#done
+
+#Sorting of printed numbers
+for (( i=0; i<$n; i++))
+do
+	for (( j=$i; j<$n; j++ ))
+	do
+		if [ ${NUM[$i]} -gt ${NUM[$j]} ];
+		then
+			A=${NUM[$i]}
+			NUM[$i]=${NUM[$j]}
+			NUM[$j]=$A
+		fi
+	done
+done
+
+#printing the sorted numbers
+echo -e "\n Sorted numbers"
+for (( i=0; i<$n; i++ ))
+do 
+	echo "${NUM[$i]}"
+done
