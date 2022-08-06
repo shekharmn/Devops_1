@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "Enter the name to check"
 read name
 if [ -h $name ];
