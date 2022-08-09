@@ -1,4 +1,5 @@
 #!/bin/bash
+#Swaping of two Numbers
 echo "Enter two numbers"
 var=""
 read num1 num2
