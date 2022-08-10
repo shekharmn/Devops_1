@@ -1,3 +1,6 @@
 #commit 1
+<<<<<<< HEAD
 
 #commit 2
+=======
+>>>>>>> 82fc5aa (commit one)
