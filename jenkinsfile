@@ -1,15 +1,18 @@
-agent
+pipeline
 {
-    stage('build')
+    agent
     {
+        stage('build')
+       {   
         
-    }
-    stage('deploy')
-    {
+        }
+        stage('deploy')
+         {
         
-    }
-    stage('test')
-    {
+           }
+        stage('test')
+        {
         
+          }
     }
 }
