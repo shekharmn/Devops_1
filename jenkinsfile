@@ -1,0 +1,15 @@
+agent
+{
+    stage('build')
+    {
+        
+    }
+    stage('deploy')
+    {
+        
+    }
+    stage('test')
+    {
+        
+    }
+}
