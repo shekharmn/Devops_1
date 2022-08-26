@@ -1,29 +1,25 @@
-pipeline
+pipeline 
 {
     agent any
+    stages 
     {
-        stages
+        stage('Example Build') 
         {
-                 stage('build')
-                    {  steps
-                         {
-                              }
-                     
-                     }
-        stage('deploy')
-         {
-                    steps
-                     {
-                          }
-        
-          }
-        stage('test')
-        { 
-                steps
-                {
-                  }
-        
-          }
+            steps 
+            {
+                echo 'Hello World'
+            }
+        }
+        stage('Example Deploy') 
+        {
+            when 
+            {
+                branch 'production'
+            }
+            steps 
+            {
+                echo 'Deploying'
+            }
         }
     }
 }
